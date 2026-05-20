@@ -1,0 +1,44 @@
+{
+    "keyboard_name": "xarcade",
+    "manufacturer": "davewongillies",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0xCAFE",
+        "pid": "0xBEEF",
+        "device_version": "0.1.0"
+    },
+    "development_board": "promicro",
+    "features": {
+        "backlight": false,
+        "bootmagic": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+       }
+    },
+    "matrix_pins": {
+        "direct": [
+          ["B4"],
+          ["E6"],
+          ["D7"],
+          ["C6"],
+          ["D4"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "B4", "x": 0, "y": 0, "matrix": [0, 0]},
+                {"label": "E6", "x": 0, "y": 1, "matrix": [1, 0]},
+                {"label": "D7", "x": 0, "y": 2, "matrix": [2, 0]},
+                {"label": "C6", "x": 0, "y": 3, "matrix": [3, 0]},
+                {"label": "D4", "x": 0, "y": 4, "matrix": [4, 0]}
+            ]
+        }
+    }
+}
